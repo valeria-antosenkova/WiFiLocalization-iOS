@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		707047C02DD3307C006CAD04 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 707047BF2DD3307C006CAD04 /* art.scnassets */; };
+		707047C52DD3307C006CAD04 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 707047C42DD3307C006CAD04 /* Base */; };
+		707047C72DD3307E006CAD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707047C62DD3307E006CAD04 /* Assets.xcassets */; };
+		70763BE12E2FCCD800BFF0C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70763BE02E2FCCD700BFF0C3 /* ContentView.swift */; };
+		70763BE32E2FCDCD00BFF0C3 /* WiFiLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70763BE22E2FCDCD00BFF0C3 /* WiFiLocalization.swift */; };
+		70763BE52E30F91A00BFF0C3 /* JSONFileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70763BE42E30F91A00BFF0C3 /* JSONFileLoader.swift */; };
+		70763BE72E30F9B600BFF0C3 /* RoomDetectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70763BE62E30F9B600BFF0C3 /* RoomDetectorView.swift */; };
+		7099589F2DDB8B23004B3EE9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099589E2DDB8B23004B3EE9 /* DataModel.swift */; };
+		709958A22DDB9186004B3EE9 /* WifiStampsRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709958A12DDB9186004B3EE9 /* WifiStampsRecorder.swift */; };
+		709958C02DDBB65D004B3EE9 /* WifiMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709958BF2DDBB65D004B3EE9 /* WifiMapView.swift */; };
+		70E3DCE92DEECD4E00BB0CAA /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E3DCE82DEECD4E00BB0CAA /* RoomModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		706827A42DD4DD4500144875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		706827A52DD4DD8000144875 /* WiFiLocalization.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WiFiLocalization.entitlements; sourceTree = "<group>"; };
+		707047BA2DD3307C006CAD04 /* WiFiLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707047BF2DD3307C006CAD04 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		707047C42DD3307C006CAD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		707047C62DD3307E006CAD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70763BE02E2FCCD700BFF0C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70763BE22E2FCDCD00BFF0C3 /* WiFiLocalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiLocalization.swift; sourceTree = SOURCE_ROOT; };
+		70763BE42E30F91A00BFF0C3 /* JSONFileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileLoader.swift; sourceTree = "<group>"; };
+		70763BE62E30F9B600BFF0C3 /* RoomDetectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetectorView.swift; sourceTree = "<group>"; };
+		7099589E2DDB8B23004B3EE9 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		709958A12DDB9186004B3EE9 /* WifiStampsRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiStampsRecorder.swift; sourceTree = "<group>"; };
+		709958BF2DDBB65D004B3EE9 /* WifiMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiMapView.swift; sourceTree = "<group>"; };
+		70E3DCE82DEECD4E00BB0CAA /* RoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707047B72DD3307C006CAD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		707047B12DD3307C006CAD04 = {
+			isa = PBXGroup;
+			children = (
+				707047BC2DD3307C006CAD04 /* WiFiLocalization */,
+				707047BB2DD3307C006CAD04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707047BB2DD3307C006CAD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707047BA2DD3307C006CAD04 /* WiFiLocalization.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		707047BC2DD3307C006CAD04 /* WiFiLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				709958A12DDB9186004B3EE9 /* WifiStampsRecorder.swift */,
+				70763BE22E2FCDCD00BFF0C3 /* WiFiLocalization.swift */,
+				709958BF2DDBB65D004B3EE9 /* WifiMapView.swift */,
+				70763BE62E30F9B600BFF0C3 /* RoomDetectorView.swift */,
+				70763BE42E30F91A00BFF0C3 /* JSONFileLoader.swift */,
+				70763BE02E2FCCD700BFF0C3 /* ContentView.swift */,
+				706827A52DD4DD8000144875 /* WiFiLocalization.entitlements */,
+				706827A42DD4DD4500144875 /* Info.plist */,
+				707047BF2DD3307C006CAD04 /* art.scnassets */,
+				707047C32DD3307C006CAD04 /* Main.storyboard */,
+				707047C62DD3307E006CAD04 /* Assets.xcassets */,
+				709958A02DDB8CEF004B3EE9 /* Data Model */,
+			);
+			path = WiFiLocalization;
+			sourceTree = "<group>";
+		};
+		709958A02DDB8CEF004B3EE9 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				7099589E2DDB8B23004B3EE9 /* DataModel.swift */,
+				70E3DCE82DEECD4E00BB0CAA /* RoomModel.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		707047B92DD3307C006CAD04 /* WiFiLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707047CA2DD3307E006CAD04 /* Build configuration list for PBXNativeTarget "WiFiLocalization" */;
+			buildPhases = (
+				707047B62DD3307C006CAD04 /* Sources */,
+				707047B72DD3307C006CAD04 /* Frameworks */,
+				707047B82DD3307C006CAD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFiLocalization;
+			productName = WiFiLocalization;
+			productReference = 707047BA2DD3307C006CAD04 /* WiFiLocalization.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		707047B22DD3307C006CAD04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					707047B92DD3307C006CAD04 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 707047B52DD3307C006CAD04 /* Build configuration list for PBXProject "WiFiLocalization" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 707047B12DD3307C006CAD04;
+			productRefGroup = 707047BB2DD3307C006CAD04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707047B92DD3307C006CAD04 /* WiFiLocalization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707047B82DD3307C006CAD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707047C02DD3307C006CAD04 /* art.scnassets in Resources */,
+				707047C72DD3307E006CAD04 /* Assets.xcassets in Resources */,
+				707047C52DD3307C006CAD04 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		707047B62DD3307C006CAD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709958A22DDB9186004B3EE9 /* WifiStampsRecorder.swift in Sources */,
+				709958C02DDBB65D004B3EE9 /* WifiMapView.swift in Sources */,
+				70763BE52E30F91A00BFF0C3 /* JSONFileLoader.swift in Sources */,
+				70763BE72E30F9B600BFF0C3 /* RoomDetectorView.swift in Sources */,
+				70763BE12E2FCCD800BFF0C3 /* ContentView.swift in Sources */,
+				70E3DCE92DEECD4E00BB0CAA /* RoomModel.swift in Sources */,
+				7099589F2DDB8B23004B3EE9 /* DataModel.swift in Sources */,
+				70763BE32E2FCDCD00BFF0C3 /* WiFiLocalization.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		707047C32DD3307C006CAD04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707047C42DD3307C006CAD04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		707047C82DD3307E006CAD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		707047C92DD3307E006CAD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		707047CB2DD3307E006CAD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WiFiLocalization/WiFiLocalization.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R5LN23ATX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WiFiLocalization/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.everyware.wifilocalization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		707047CC2DD3307E006CAD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WiFiLocalization/WiFiLocalization.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R5LN23ATX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WiFiLocalization/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.everyware.wifilocalization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707047B52DD3307C006CAD04 /* Build configuration list for PBXProject "WiFiLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707047C82DD3307E006CAD04 /* Debug */,
+				707047C92DD3307E006CAD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707047CA2DD3307E006CAD04 /* Build configuration list for PBXNativeTarget "WiFiLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707047CB2DD3307E006CAD04 /* Debug */,
+				707047CC2DD3307E006CAD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 707047B22DD3307C006CAD04 /* Project object */;
+}
