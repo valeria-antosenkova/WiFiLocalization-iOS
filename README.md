@@ -11,3 +11,6 @@ Due to system limitations, signal strength (RSSI) is not available via public AP
 - Export and import collected data as .json.
 - Preview data for each recorded room.
 - Room detection mode for real-time estimation.
+
+
+Made for the University of Milan, 2025
