@@ -15,12 +15,10 @@ Due to system limitations, signal strength (RSSI) is not available via public AP
 
 Made for the University of Milan, 2025
 
-<img width="777" height="442" alt="WiFi-Loc-intro" src="https://github.com/user-attachments/assets/3aae562c-6bd2-4ed4-8c13-e6f9e431cf3d" />
+<img width="1157" height="649" alt="intro" src="https://github.com/user-attachments/assets/f1559bf9-717a-43b4-b591-6b72fa98c248" />
+<img width="1157" height="649" alt="goal" src="https://github.com/user-attachments/assets/ca7dc721-bc7a-4a2a-aa65-22125890db4c" />
+<img width="1157" height="649" alt="phase1" src="https://github.com/user-attachments/assets/42ac79a3-ba86-41b4-9424-4f195dae588d" />
+<img width="1157" height="649" alt="phase2" src="https://github.com/user-attachments/assets/73218ae5-02e4-492a-9f5b-86284c403a0f" />
+<img width="1157" height="649" alt="demo" src="https://github.com/user-attachments/assets/5be6d188-2c53-447b-9de9-6aa0438b08b3" />
 
-<img width="777" height="431" alt="Goal-project" src="https://github.com/user-attachments/assets/3c717e5a-7aff-41c2-a384-4c133f7ba22a" />
 
-<img width="783" height="435" alt="image" src="https://github.com/user-attachments/assets/5d928778-23ea-4111-a441-eea1c5e2138c" />
-
-<img width="764" height="430" alt="image" src="https://github.com/user-attachments/assets/9c56ec83-f836-4550-bcf7-a01d0703c758" />
-
-<img width="789" height="438" alt="image" src="https://github.com/user-attachments/assets/c578bb07-3d25-46e9-8700-43b85250ce6d" />
