@@ -14,3 +14,5 @@ Due to system limitations, signal strength (RSSI) is not available via public AP
 
 
 Made for the University of Milan, 2025
+
+<img width="777" height="442" alt="WiFi-Loc-intro" src="https://github.com/user-attachments/assets/3aae562c-6bd2-4ed4-8c13-e6f9e431cf3d" />
